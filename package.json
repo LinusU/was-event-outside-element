@@ -1,0 +1,19 @@
+{
+  "name": "was-event-outside-element",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Linus Unnebäck <linus@folkdatorn.se>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/LinusU/was-event-outside-element.git"
+  },
+  "scripts": {
+    "test": "standard && browserify test/basic.js -o test/build.js && open test/index.html"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "mocha": "^2.2.5",
+    "standard": "^5.1.0"
+  }
+}
